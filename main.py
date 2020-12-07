@@ -10,7 +10,9 @@ while True:
         if user[0].isnumeric():
             total = 0
             for roll in range(int(user.split('d')[0])):
-                total += random.randint(1, int(user.split('d')[1]))
+                roll_val = random.randint(1, int(user.split('d')[1]))
+                print(roll_val)
+                total += roll_val
             print(total)
         else:
             print(random.randint(1, int(user.split('d')[1])))
