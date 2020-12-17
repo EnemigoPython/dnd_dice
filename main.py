@@ -13,7 +13,7 @@ while True:
                 roll_val = random.randint(1, int(user.split('d')[1]))
                 print(roll_val)
                 total += roll_val
-            print(total)
+            print(f'total: {total}')
         else:
             print(random.randint(1, int(user.split('d')[1])))
     elif user.lower() == 'h':
