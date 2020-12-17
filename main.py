@@ -17,7 +17,7 @@ while True:
         else:
             print(random.randint(1, int(user.split('d')[1])))
     elif user.lower() == 'h':
-        print('Type the amount of die, followed by "d", followed by a dice type')
+        print('Type the amount of dice, followed by "d", followed by a dice type')
         print('Dice types: 4, 6, 8, 10, 12, 20, 100')
     else:
         print('Invalid roll, try again.')
