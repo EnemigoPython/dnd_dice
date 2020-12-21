@@ -33,8 +33,8 @@ while True:
     elif user.lower() == 'h':
         print('Type the amount of dice, followed by "d", followed by a dice type.')
         print('Optionally add "+" to add a number to your roll.')
-        print('Example roll: "2d20+5')
-        print('Dice types: 4, 6, 8, 10, 12, 20, 100.')
+        print('Example roll: "2d20+5"')
+        print('Dice types: 4, 6, 8, 10, 12, 20, 100')
     else:
         print('Invalid roll, try again.')
     print()
