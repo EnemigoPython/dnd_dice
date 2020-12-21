@@ -1,7 +1,7 @@
 import random
 import re
 
-pattern = re.compile(r'(\d+)?\s?d(4|6|8|10|12|20|100)(\s)?([+]\s?\d+)?')
+pattern = re.compile(r'(\d+)?\s?d(100|4|6|8|10|12|20)(\s)?([+]\s?\d+)?')
 
 while True:
     user = input('Roll the dice, "h" for help:\n')
